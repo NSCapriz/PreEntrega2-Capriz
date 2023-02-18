@@ -1,0 +1,167 @@
+body {
+    background-color: #FFECCC;
+    }
+.header--color {
+    background-color: #EFB96F;
+}
+.navbar--type {
+    font-family: 'Lobster', cursive;
+    font-size: 17pt;
+}
+.nav-link--color {
+    color: #8C4F2B;
+}
+.nav-link--color:hover {
+    border-bottom: solid #8C4F2B;
+}
+.container__logo {
+    background-color: #EFB96F;
+    text-align: center;
+}
+.titulo--estilo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40pt;
+}
+.link--iconos {
+    width: 4rem;
+    height: 4rem;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50pt;
+}
+footer {
+    color: white;
+    background-color: #665B4F;
+    text-align: center;
+    height: 100px;
+}
+footer div p {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+footer div a img {
+    width: 20px;
+    height: 20px;
+}
+
+/*Sobre Mi*/
+
+.container--titulo {
+    height: 10rem;
+    background-color: #665B4F;
+    color: white;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: lighter;
+    padding: 20px;
+}
+.container--subtitulo h2 {
+    font-family: 'Great Vibes', cursive;
+}
+.container--texto {
+    text-align: justify;
+}
+.frase {
+    text-decoration: overline;
+}
+.invitacion {
+    font-family: 'Tangerine', cursive;
+    font-size: 35pt;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*Productos*/
+
+.container__categorias {
+    background-color: #FFEAED;
+    font-weight:bold;
+    border: solid;
+    border-color: #DBC6DD;
+}
+.container__categorias--inicio {
+    background-color:#FCD0FF;
+    color: #667AAE;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    border-bottom: solid #DBC6DD;
+}
+.container__categorias--inicio a:hover {
+    border-bottom: solid #667AAE;
+}
+.container__categorias h2 {
+    color: #667AAE;
+}
+.link--categoria {
+    color: #667AAE;
+    font-family: 'Lobster', cursive;
+}
+.container__comprar {
+    background-color: #FCD0FF;
+    text-align: center;
+    border: solid;
+    border-color: #DBC6DD;
+}
+.container__comprar button {
+    border-radius: 0.5rem 1px;
+    border: white;
+    box-shadow: 0 0.2rem 0.2rem 0 black;
+    color: white;
+    background-color: #F29494;
+}
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+/*Eventos*/
+
+.container__infocantidades {
+    background-color: #A6AD63;
+    text-align: center;
+    border: solid;
+    border-color: #005B4C; 
+}
+.container__combos  img {
+    box-shadow: 0 0.5rem 1rem 0 black;
+}
+.container__combos button {
+    border-radius: 0.5rem 1px;
+    border: white;
+    box-shadow: 0 0.3rem 0.3rem 0 black;
+    color: white;
+    background-color: #F29494;
+}
+
+
+/*Contacto*/
+
+.titulocontacto {
+    font-family: 'Lobster', cursive;
+}
+.container__linkalinicio ul li {
+    color:#8C4F2B;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.container__linkalinicio ul li a {
+    text-decoration: underline;
+}
+.container__mapa h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-style: italic;
+}
+.container__formulario h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}

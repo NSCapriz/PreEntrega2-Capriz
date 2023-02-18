@@ -1,0 +1,740 @@
+
+
+
+/*CSS original sin media queries*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.conteiner {
+    width: 90%;
+    margin: auto;
+    max-width: 1320px;
+}
+header {
+    background-color:  #EFB96F;
+    background-size: cover;
+    height: 2.9rem;
+    width: 100%;
+}
+header div a img {
+    width: 6rem;
+    margin-top: 0.5rem;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    z-index: 2;
+    top: 0;
+    margin-left: 2rem;
+}
+header nav ul li a {
+    color: #8C4F2B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 17pt;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logogif {
+    text-align: center;
+    background-color: #EFB96F;
+    border: solid 8px;
+    border-color: #FFECCC;
+}
+.logogif img {
+    height: 12.5rem;
+    width: 12.5rem;
+}
+body {
+    background-color: #FFECCC;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+.ribete {
+    text-align: center;
+}
+.ribete img {
+    height: 8rem;
+    width: 50rem;
+}
+.conteiner2 {
+    display: flex;
+    justify-content: baseline;
+}
+.conteiner2 div {
+    width: 20rem;
+    height: 12rem;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+.iconos {
+    width: 60px;
+    height: 60px;
+}
+footer {
+    color: white;
+    background-color: #665B4F;
+    text-align: center;
+    height: 100px;
+}
+footer div p {
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+footer div a img {
+    width: 20px;
+    height: 20px;
+}
+.copy {
+    background-color: rgb(56, 56, 56);
+    margin-top:  10px;
+    font-weight: lighter;
+}
+
+/* Sobre mí */
+
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem;
+}
+.menu2 nav ul li {
+    margin: 0.3rem 4rem;
+}
+.conteiner_titulo {
+    height: 10rem;
+    background-color: #665B4F;
+}
+.conteiner_titulo h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    font-weight: lighter;
+    padding: 20px;
+    grid-area: titulosobremi;
+}
+.conteiner_principal {
+    display: flex;
+}
+.conteiner_principal img {
+    height: 25rem;
+    width: 21.8rem;
+    margin: 1rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0 black;
+}
+section div h2 { 
+    font-family: 'Great Vibes', cursive;
+    font-size: 40pt;
+    font-weight: lighter;
+    margin-top: 1rem;
+    text-align: center;
+}
+.conteiner_secundario {
+    display: grid;
+    grid-template-rows: 10rem auto;
+    grid-template-areas:
+    "acercademi acercademi"
+    "parrafo1 parrafo2"
+    ;
+}
+.conteiner_secundario h2 {
+    grid-area: acercademi;
+    padding-top: 2rem;
+}
+.parrafo1 {
+    grid-area: parrafo1;
+    text-align: justify;
+    margin-right: 1rem;
+    padding: 0 2rem;
+}
+.parrafo2 {
+    grid-area: parrafo2;
+    text-align: justify;
+    margin-right: 1rem;
+    padding: 0 2rem;
+}
+.frase {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-top: solid 1px;
+    font-size: 14pt;
+    font-style: italic;
+}
+.invitacion {
+    font-family: 'Tangerine', cursive;
+    font-size: 35pt;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*Productos*/
+
+.primeraseccion {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3 auto);
+    grid-template-areas: 
+    "categoria  categoria1  categoria1 categoria1"
+    "categoria  torta1  torta2  torta3"
+    "comprar    torta4  torta5  torta6"
+    ;
+}
+.primeraseccion h2 {
+    grid-area: categoria1;
+    margin-top: 2rem;
+    border-bottom: solid 1px;
+    font-size: 30pt;
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    font-weight: lighter;
+}
+.primeraseccion div img {
+    box-shadow: 0 0.5rem 1rem 0 black;
+    margin-bottom: 1rem;
+}
+.torta1 {
+    grid-area: torta1;
+    text-align: center;
+    padding: 1rem;
+}
+.torta2 {
+    grid-area: torta2;
+    text-align: center;
+    padding: 1rem;
+}
+.torta3 {
+    grid-area: torta3;
+    text-align: center;
+    padding: 1rem;
+}
+.torta4 {
+    grid-area: torta4;
+    text-align: center;
+    padding: 1rem;
+}
+.torta5 {
+    grid-area: torta5;
+    text-align: center;
+    padding: 1rem;
+}
+.torta6 {
+    grid-area: torta6;
+    text-align: center;
+    padding: 1rem;
+}
+.categorias {
+    background-color: #FFEAED;
+    list-style: none;
+    font-weight:bold;
+    margin: 1rem;
+    position: relative;
+    border: solid;
+    border-color: #DBC6DD;
+    grid-area: categoria;
+    width: 9.7rem;
+}
+.categorias ul {
+    background-color:#FFEAED;
+    color: #667AAE;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    border-bottom: #FFEAED;
+}
+.categorias ul li {
+    font-size: 14pt;
+}
+.categorias ul li a{
+    color: #667AAE;
+}
+.categorias div ul li a {
+    color: #9CAEE6;
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+}
+.categorias_items {
+    text-align: center;
+}
+.categorias_items h2 {
+    color: #667AAE;
+    font-family: 'Tangerine', cursive;
+    font-size: 40pt;
+    font-weight: bold;
+    border-bottom:#DBC6DD;
+    margin-bottom: 2rem;
+}
+.categorias_items ul li{
+    margin-bottom: 1.5rem;
+}
+.comprar {
+    width: 9.7rem;
+    background-color: #FFE3EC;
+    height: 400px;
+    text-align: center;
+    border: solid;
+    border-color: #DBC6DD;
+    padding: 8px;
+    margin: 1rem;
+    position: relative;
+    grid-area: comprar;
+}
+.comprar h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 30pt;
+    border-color: #DBC6DD;
+    margin: 0.4rem;
+}
+.comprar p {
+    margin-bottom: 1.5rem;
+}
+.comprar a {
+    font-size: 15pt;
+}
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20pt;
+}
+section div img {
+    width: 19rem;
+    height: 19rem;
+}
+.segundaseccion {
+    display: grid;
+    margin-left: 12rem;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "categoria2 categoria2  categoria2"
+    "budin1  budin2 budin3"
+    ;
+}
+.segundaseccion h2 {
+    grid-area: categoria2;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-bottom: solid 1px;
+    font-size: 30pt;
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    font-weight: lighter;
+}
+.segundaseccion div img{
+    box-shadow: 0 0.5rem 1rem 0 black;
+    margin-bottom: 1rem;
+}
+.budin1 {
+    grid-area: budin1;
+    text-align: center;
+    padding: 1rem;
+}
+.budin2 {
+    grid-area: budin2;
+    text-align: center;
+    padding: 1rem;
+}
+.budin3 {
+    grid-area: budin3;
+    text-align: center;
+    padding: 1rem;
+}
+.terceraseccion {
+    display: grid;
+    margin-left: 12rem;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "categoria3 categoria3  categoria3"
+    "tarta1  tarta2 tarta3"
+    "tarta4 tarta5  tarta6"
+}
+.terceraseccion h2 {
+    grid-area: categoria3;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-bottom: solid 1px;
+    font-size: 30pt;
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    font-weight: lighter;
+}
+.terceraseccion div img {
+    box-shadow: 0 0.5rem 1rem 0 black;
+    margin-bottom: 1rem;
+}
+.tarta1 {
+    grid-area: tarta1;
+    text-align: center;
+    padding: 1rem;
+}
+.tarta2 {
+    grid-area: tarta2;
+    text-align: center;
+    padding: 1rem;
+}
+.tarta3 {
+    grid-area: tarta3;
+    text-align: center;
+    padding: 1rem;
+}
+.tarta4 {
+    grid-area: tarta4;
+    text-align: center;
+    padding: 1rem;
+}
+.tarta5 {
+    grid-area: tarta5;
+    text-align: center;
+    padding: 1rem;
+}
+.tarta6 {
+    grid-area: tarta6;
+    text-align: center;
+    padding: 1rem;
+}
+.cuartaseccion {
+    display: grid;
+    margin-left: 12rem;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "categoria4 categoria4  categoria4"
+    "clasico1  clasico2 clasico3"
+    "clasico4 clasico5  clasico6"
+}
+.cuartaseccion h2 {
+    grid-area: categoria4;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-bottom: solid 1px;
+    font-size: 30pt;
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    font-weight: lighter;
+}
+.cuartaseccion div img {
+    box-shadow: 0 0.5rem 1rem 0 black;
+    margin-bottom: 1rem;
+}
+.clasico1 {
+    grid-area: clasico1;
+    text-align: center;
+    padding: 1rem;
+}
+.clasico2 {
+    grid-area: clasico2;
+    text-align: center;
+    padding: 1rem;
+}
+.clasico3 {
+    grid-area: clasico3;
+    text-align: center;
+    padding: 1rem;
+}
+.clasico4 {
+    grid-area: clasico4;
+    text-align: center;
+    padding: 1rem;
+}
+.clasico5 {
+    grid-area: clasico5;
+    text-align: center;
+    padding: 1rem;
+}
+.clasico6 {
+    grid-area: clasico6;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Eventos*/
+
+.seccion_principal {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "info   combos  combos  combos"
+    "info   cumpleaños  desayuno    momento"
+    "info   enamorados  dia navidad"
+    ;
+}
+.seccion_principal div a button{
+    width: 4rem;
+    height: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem 1px;
+    border: white;
+    box-shadow: 0 0.5rem 0.5rem 0 black;
+    color: white;
+    background-color: #F29494;
+}
+.seccion_principal div img {
+    box-shadow: 0 0.5rem 1rem 0 black;
+    margin-bottom: 0.5rem;
+}
+.combos_especiales {
+    grid-area: combos;
+}
+.combos_especiales h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: solid 1px;
+    width: 95%;
+}
+.combos_especiales p {
+    text-align: center;
+    margin: 2rem;
+    padding-right: 2.5rem;
+    font-style: italic;
+}
+.cumpleaños {
+    grid-area: cumpleaños;
+    text-align: center;
+}
+.cumpleaños h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.cumpleaños p {
+    padding: 1rem 2rem;
+}
+.desayunos {
+    grid-area: desayuno;
+    text-align: center;
+}
+.desayunos h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.desayunos p {
+    padding: 1rem 2rem;
+}
+.momento {
+    grid-area: momento;
+    text-align: center;
+}
+.momento h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.momento p {
+    padding: 1rem 2rem;
+}
+.enamorados {
+    grid-area: enamorados;
+    text-align: center;
+}
+.enamorados h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.enamorados p {
+    padding: 1rem 2rem;
+}
+.dia {
+    grid-area: dia;
+    text-align: center;
+}
+.dia h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 25pt;
+    font-weight: lighter;
+}
+.dia p {
+    padding: 1rem 2rem;
+}
+.navidad {
+    grid-area: navidad;
+    text-align: center;
+}
+.navidad h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 25pt;
+    font-weight: lighter;
+}
+.navidad p {
+    padding: 1rem 2rem;
+}
+.conteiner_info {
+    grid-area: info;
+    height: auto;
+    background-color: #A6AD63;
+    text-align: center;
+    margin: 1rem;
+    width: 12rem;
+    border: solid;
+    border-color: #005B4C; 
+}
+.conteiner_info ul {
+    font-family: 'Lobster', cursive;
+    color: #005B4C;
+    text-align: center;
+    background-color:  #468B71;
+    border-bottom: solid;
+}
+.conteiner_info ul li {
+    font-size: 15pt;
+    font-weight: bold;
+}
+.conteiner_info ul li a{
+    color: #005B4C;
+    font-size: 15pt;
+}
+.comocomprar {
+    padding: 0.5rem;
+}
+.comocomprar h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 30pt;
+    margin: 1rem 0.3rem;
+}
+.comocomprar h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 15pt;
+    font-weight: lighter;
+    margin: 0.5rem;
+}
+.seccion_secundaria {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 10rem;
+}
+.seccion_secundaria div h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 72pt;
+    text-align: center;
+}
+.seccion_secundaria div img {
+    width: 90%;
+    height: 10rem;
+    margin: 3rem;
+}
+.seccion_secundaria div p {
+    padding: 0 7rem;
+}
+
+/*contacto*/
+.volveralinicio {
+    list-style: none;
+    background-color: #FFECCC;
+    border: solid #FFECCC 20px;
+    font-family: 'Lobster', cursive;
+    color: #8C4F2B;
+    font-size: 20pt;
+    text-align: center;
+}
+.volveralinicio h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+.volveralinicio ul li a {
+    text-decoration: none;
+    color: #8C4F2B;
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+.contenedorcontacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "indicaciones formulario"
+    ;
+}
+.indicaciones {
+    text-align: center;
+    margin-left:  2rem;
+    grid-area: indicaciones;
+}
+.indicaciones h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 20px;
+    font-weight: bold;
+}
+.formulario {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    width: 8rem;
+    grid-area: formulario;
+}
+fieldset {
+    margin-right: 5rem;
+    margin-left: 2rem;
+}
+fieldset legend h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+}
+.form_item {
+    margin: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.form_item label{
+    text-align: justify;
+}
+.form_item input {
+    margin-left: 0.5rem;
+}
+.form_item textarea {
+    margin-left: 0.5rem;
+    height: 107px;
+    width: 512px;
+}
+form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe {
+    margin: 10px;
+}
+.qr {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 2rem 0;
+}
+.qr img {
+    margin-top: 1rem;
+}
