@@ -4,6 +4,9 @@ body {
 .header--color {
     background-color: #EFB96F;
 }
+.navbar__logo {
+    width: 6rem;
+}
 .navbar--type {
     font-family: 'Lobster', cursive;
     font-size: 17pt;
@@ -46,8 +49,8 @@ footer div p {
     font-weight: bold;
 }
 footer div a img {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
 }
 
 /*Sobre Mi*/
