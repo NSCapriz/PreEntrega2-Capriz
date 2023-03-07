@@ -1,0 +1,20 @@
+{
+  "name": "preentrega2-capriz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSCapriz/PreEntrega2-Capriz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSCapriz/PreEntrega2-Capriz/issues"
+  },
+  "homepage": "https://github.com/NSCapriz/PreEntrega2-Capriz#readme"
+}

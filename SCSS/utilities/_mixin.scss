@@ -1,0 +1,9 @@
+@mixin theme {
+    @if $height {
+        background: $color-brown;
+        background: linear-gradient(17deg, $color-brown 37%, $color-lightbrown 70%, $color-terra 100%);
+        color: $color-white;
+        font-family: $cursive-font;
+        padding: 1.1rem;
+    }
+}

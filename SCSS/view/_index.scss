@@ -1,0 +1,12 @@
+.container__logo {
+    background-color: $color-orange;
+}
+.link--iconos {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    transition: height 0.5s, width 0.5s;
+    &:hover {
+        transform: scale(2,2);
+}
+}

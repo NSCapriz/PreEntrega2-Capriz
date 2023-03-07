@@ -1,0 +1,15 @@
+.header__container {
+    background-color: $color-orange;
+    .navbar--logo {
+        width: 6rem;
+    }
+    .navbar--type {
+        font-family: $cursive-font;
+    }
+    .nav-link--color {
+        color: $color-orange-brown;
+        &:hover {
+            text-decoration: underline;
+    }
+    }
+}

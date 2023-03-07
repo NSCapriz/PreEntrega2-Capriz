@@ -1,0 +1,12 @@
+.container__link--inicio {
+        li {
+            color: $color-orange-brown;
+            font-family: $primary-font;
+        }
+        a {
+            text-decoration: underline;
+            &:hover {
+                color: $color-emerald;
+            }
+        }
+} 

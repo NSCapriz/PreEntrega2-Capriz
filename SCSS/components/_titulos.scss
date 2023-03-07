@@ -1,0 +1,9 @@
+.container--titulo {
+    height: $height;
+    @include theme;
+    h1 {
+        position:relative;
+        animation-name: entrance;
+        animation-duration: 0.7s;
+    }
+    }

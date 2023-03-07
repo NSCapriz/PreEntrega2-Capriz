@@ -1,0 +1,17 @@
+footer {
+    color: $color-white;
+    background-color: $color-brown;
+    text-align: center;
+    height: 6.25rem;
+    div {
+        p {
+            margin-bottom: 1rem;
+            padding-top: 1rem;
+            font-weight: bold; 
+        }
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}

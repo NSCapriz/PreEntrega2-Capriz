@@ -1,0 +1,14 @@
+.container--foto {
+    animation: aparecer 2s ease;
+}
+.container--text {
+    text-align: justify;
+}
+.text--invitacion {
+    font-family: $cursive-font;
+}
+@media (min-width: 768px) {
+    .text--frase {
+        text-decoration: overline;
+    }
+}

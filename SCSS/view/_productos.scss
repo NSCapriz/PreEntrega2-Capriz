@@ -1,0 +1,50 @@
+.container__categorias {
+    background-color: $color-light-rose;
+    border: solid;
+    border-color: $color-light-purple;
+    h2 {
+        color: $color-blue-gray
+    }
+    .container__categorias--inicio {
+        background-color: $color-purple-rose;
+        color: $color-blue-gray;
+        font-family: $cursive-font;
+        border-bottom: solid $color-light-purple;
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+    .link--categoria {
+        color: $color-blue-gray;
+        font-family: $cursive-font;
+        font-size: 2rem;
+        &:hover {
+            color: $color-brown;
+        }
+    }
+}
+.container__comprar {
+    background-color: $color-purple-rose;
+    border: solid $color-light-purple; 
+    button {
+        width: 4rem;
+        border: solid $color-blue-gray;
+        color: $color-blue-gray;
+        background-color: transparent;
+        transition: all 0.5s;
+        &:hover {
+            width: auto;
+            border-radius: solid 0.5rem 2px;
+            border-color: transparent;  
+            color: $color-white;
+            background-color: $color-rose-pastel;
+            box-shadow: $shadow-button-only;
+            letter-spacing: 1ch;
+        }
+    }
+}
+.container__productos {
+    img {
+        box-shadow: $shadow;
+    }
+}
