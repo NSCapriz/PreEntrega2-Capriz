@@ -113,6 +113,10 @@ footer div img {
   transform: scale(2, 2);
 }
 
+.ribeteFlores {
+  width: 50rem;
+}
+
 .container--foto {
   animation: aparecer 2s ease;
 }
@@ -162,8 +166,8 @@ footer div img {
 }
 .container__comprar button {
   width: 4rem;
-  border: solid #667AAE;
-  color: #667AAE;
+  border: solid #005B4C;
+  color: #005B4C;
   background-color: transparent;
   transition: all 0.5s;
 }
@@ -216,6 +220,15 @@ footer div img {
 }
 .container__link--inicio a:hover {
   color: #005B4C;
+}
+
+.container__qr .container__qr--icono {
+  width: 2rem;
+  height: 2rem;
+}
+.container__qr .container__qr--imagen {
+  width: 15rem;
+  height: 15rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
