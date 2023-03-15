@@ -227,4 +227,30 @@ footer div img {
   height: 15rem;
 }
 
+.container__notFound {
+  margin: 4rem 0 10rem 0;
+}
+.container__notFound h1 {
+  background-color: #EFB96F;
+  font-family: "Dosis", sans-serif;
+}
+.container__notFound h2 {
+  font-family: "Dosis", sans-serif;
+}
+.container__notFound p {
+  font-family: "Dosis", sans-serif;
+}
+.container__notFound button {
+  transition: all 0.5s;
+}
+.container__notFound button:hover {
+  border-radius: solid 0.5rem 2px;
+  border-color: transparent;
+  color: #ffffff;
+  background-color: #F29494;
+  box-shadow: 0 0.3rem 0.3rem 0 rgb(0, 0, 0);
+  letter-spacing: 1ch;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=styles.css.map */

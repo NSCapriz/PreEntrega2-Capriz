@@ -1,0 +1,25 @@
+.container__notFound {
+    margin: 4rem 0 10rem 0;
+    h1 {
+        background-color: $color-orange;
+        font-family: $primary-font;
+    }
+    h2 {
+        font-family: $primary-font;
+    }
+    p {
+        font-family: $primary-font;
+    }
+    button {
+        transition: all 0.5s;
+        &:hover {
+            border-radius: solid 0.5rem 2px;
+            border-color: transparent;  
+            color: $color-white;
+            background-color: $color-rose-pastel;
+            box-shadow: $shadow-button-only;
+            letter-spacing: 1ch;
+            font-weight: bold;
+        }
+    }
+}
